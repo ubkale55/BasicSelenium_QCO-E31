@@ -29,19 +29,19 @@ public class TakeScreenshot {
 //         
 //         //Step1 = Type Casting
 //         
-//         TakesScreenshot TS = (TakesScreenshot)driver;
+         TakesScreenshot TS = (TakesScreenshot)driver;
 //         
 //         // step 2 : take Screenshot using  referance variable
 //         
-//         File temp = TS.getScreenshotAs(OutputType.FILE);
+         File temp = TS.getScreenshotAs(OutputType.FILE);
 //         
 //         // step 3 : Permanent location
 //         
-//         File permLoc = new File("./screenshot/HomePage.png");
+         File permLoc = new File("./screenshot/HomePage.png");
 //          
 //         // step 4 : Copy from temp to permananent 
 //		
-//		  FileHandler.copy(temp, permLoc);
+		  FileHandler.copy(temp, permLoc);
 		  
 	
                 //  ScreenShot -------> WebElement
